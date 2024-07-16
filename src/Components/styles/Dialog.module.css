@@ -1,0 +1,41 @@
+
+.dialogContainer {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    inset: 0;
+    z-index: 999;
+    backdrop-filter: blur(4px);
+    display: grid;
+    place-items: center;
+}
+
+.dialog {
+    background: white;
+    padding: 2em 3em;
+    border-radius: .25em;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.success {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
+
+.btn {
+    border: none;
+    padding: .5em 2em ;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: .25em;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
+}

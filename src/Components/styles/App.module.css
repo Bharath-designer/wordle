@@ -1,0 +1,23 @@
+.grid-container{
+    width: min(20em, 95%);
+    display: grid;
+    grid-template-columns: repeat(5, 2.5em);
+    gap: .5em;
+    justify-content: center;
+}
+
+.grid-item {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: .5em;
+    aspect-ratio: 1;
+    height: auto;
+    display: grid;
+    place-content: center;
+    border-radius: .25em;
+}
+
+.active {
+    transform: scale(1.2);
+}
